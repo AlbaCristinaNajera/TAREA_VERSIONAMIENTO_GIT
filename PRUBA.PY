@@ -1,15 +1,14 @@
+print("*****BIENVENIDO A LA CALCULADORA DE OPERACIONES BÁSICAS******")
+print("Esta es una calculadora que realiza operaciones básicas como suma, resta, multiplicación y división.")
+
 #PRIMERA VERSION DEL CODIGO
 nombre = input("Por favor, introduce tu nombre: ")
-print(f"Hola, {nombre}!, bienvenid@ a la primera version del código")
+print(f"Hola, {nombre}!, bienvenid@ a tu calculadora de confianza")
 print()
-edad = int(input("Por favor ingresa tu edaad: "))
-# SEGUNDA VERSION DEL CODIGO
-print("Tu edad actual es: ", edad, "años", "y esta es la segunda versión del código")
-print()
-# TERCERA VERSION DEL CODIGO
-print("CALCULADORA BÁSICA")
-num1 = int(input("Por favor, ingresa un número: "))
-num2 = int(input("Por favor, ingresa otro número: "))
+
+print("Para comenzar, por favor ingresa dos números enteros.")
+num1 = int(input("Ingresa el primer número: "))
+num2 = int(input("Ingresa el segundo número: "))
 
 print()
 salir = False
