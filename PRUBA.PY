@@ -27,6 +27,12 @@ while salir != True:
     if opcion == 1:
         resultado = num1 + num2
         print(f"La suma de {num1} y {num2} es: {resultado}")
+    elif opcion == 2: #CUARTA VERSION DEL CÓDIGO, NUEVAS FUNCIONALIDADES
+        resta = num1 -num2
+        print(f"La resta de {num1} y {num2} es: {resta}")
+    elif opcion == 3:
+        multiplicacion = num1 * num2
+        print(f"La multiplicación de {num1} y {num2} es: {multiplicacion}")
     else:
         print("Operación no válida. Por favor, selecciona una opción válida.")
 
